@@ -2,6 +2,25 @@
 
 A lightweight, web-based canvas editor where anyone can add and edit shapes/text, and share the canvas via a public link. Built with React, Fabric.js, and Firebase Firestore.
 
+🌐 **Live Demo**: [https://stateless-2d-editor-97379.web.app](https://stateless-2d-editor-97379.web.app)
+
+## 🎯 What I Built
+
+This project implements a complete **"mini Canva"** experience that meets all core requirements and includes several bonus features:
+
+- **Stateless Design**: No login required - anyone can create, edit, and share canvases instantly
+- **URL-based Scene Management**: Each canvas gets a unique shareable URL (`/canvas/:id`)
+- **Real-time Persistence**: Auto-saves to Firebase Firestore with smart fallback to localStorage
+- **Professional Canvas Tools**: Built with Fabric.js for smooth object manipulation
+- **Collaborative Sharing**: Both edit and view-only sharing modes
+- **Production Ready**: Deployed on Firebase Hosting with proper error handling
+
+### Key Trade-offs Made:
+1. **Simplicity over Complexity**: Chose auto-save over real-time collaboration for better performance
+2. **Accessibility over Authentication**: No login required for maximum ease of use
+3. **Smart Fallback**: Works offline with localStorage when Firebase is unavailable
+4. **User-First Design**: Intuitive UI with keyboard shortcuts and visual feedback
+
 ## ✨ Features
 
 ### Core Features
